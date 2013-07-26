@@ -56,5 +56,5 @@ var audioTagInjector = require('audio-tag-injector');
 // this example, let's say you called it `myDocument`.
 audioTagInjector(myDocument);
 
-// Shazam. The document now contains audio links you didn't have to write.
+// Shazam. The document now contains audio elements you didn't have to write.
 ```

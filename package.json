@@ -1,7 +1,7 @@
 {
                     
     "name"          : "audio-tag-injector",
-    "version"       : "0.1.0",
+    "version"       : "0.1.1",
     "main"          : "./src/audio-tag-injector.js",
     "description"   : "Automatically adds html5 audio elements inline beside links to mp3, ogg, and wav files.",
     "keywords"      : ["html5", "audio", "atropa"],
