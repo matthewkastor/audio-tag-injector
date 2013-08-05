@@ -51,7 +51,7 @@ function audioTagInjector (documentRef) {
         audio.setAttribute('controls', 'controls');
         audio.setAttribute('preload', 'none');
         
-        source.setAttribute('src', linkElement.href);
+        source.setAttribute('src', linkElement.getAttribute('href'));
         source.setAttribute('type', sourceType);
         // show error message if audio fails to load.
         source.addEventListener('error', errorHandler, false);
